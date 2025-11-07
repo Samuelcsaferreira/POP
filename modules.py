@@ -20,11 +20,11 @@ class Menu:
                 self.excluir_registro()
             case 4: 
                 print("Saindo...")
-                break
+                    
         
-    def registrar_limpeza(self):
         
 
+     
 class Registro:
     def __init__(self, sala, tipo, responsavel):
         self.sala = sala
@@ -33,4 +33,4 @@ class Registro:
 
 
 
-registro1 = Registro()
+registro1 = Registro("TI", "Manutenção", "Samuel")
